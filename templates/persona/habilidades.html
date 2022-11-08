@@ -1,0 +1,13 @@
+<h1>Habilidades de empleado</h1>
+<form method="GET">
+    <input type="number" id="kword" name="employee_id" placeholder="ingrese nombre aqui">
+    <button type="submit">Buscar</button>
+</form>
+
+<ul>
+    
+    {% for h in habilidades %}
+        <li>{{ h }}</li>
+    {% endfor %}
+        
+</ul>
